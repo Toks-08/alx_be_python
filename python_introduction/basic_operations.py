@@ -5,4 +5,4 @@ difference = number1 - number
 product = number1 * number2
 print(f"Addition of {number1} and {number2} is",add)
 print(f"Subtraction of {number1} and {number2} is",difference)
-print(f"Multiplication of {number1} and {number2} is",product)git
+print(f"Multiplication of {number1} and {number2} is",product)
