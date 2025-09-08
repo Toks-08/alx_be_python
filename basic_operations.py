@@ -1,8 +1,8 @@
 number1 = 10
 number2 = 5
 add = number1 + number2
-difference = number2 - number1
+difference = number1 - number2
 product = number1 * number2
-print(f"Addition of {number1} and {number2} is ",add)
-print(f"Subtraction of {number1} and {number2} is ",difference)
-print(f"Multiplication of {number1} and {number2} is ",product)
+print(f"Addition of {number1} and {number2} is",add)
+print(f"Subtraction of {number1} and {number2} is",difference)
+print(f"Multiplication of {number1} and {number2} is",product)
