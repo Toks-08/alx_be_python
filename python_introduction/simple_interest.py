@@ -1,5 +1,5 @@
-P = 1000
-R = 0.05
-T = 3
-I = float(P * R * T)
+principal = P = 1000
+rate= R = 0.05
+time = T = 3
+interest = I = float(P * R * T)
 print(f"The simple interest is:",I)
