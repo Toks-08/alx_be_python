@@ -5,5 +5,5 @@ P = principal
 R = rate
 T = time
 I = P * R * T
-interest = I = P * R * T
+interest = I
 print(f"The simple interest is:",interest)
