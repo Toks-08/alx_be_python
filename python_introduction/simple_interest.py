@@ -1,5 +1,8 @@
-principal = P = 1000
-rate= R = 0.05
-time = T = 3
+principal = 1000
+rate=  0.05
+time = 3
+P = principal
+R = rate
+T = time
 interest = I = float(P * R * T)
-print(f"The simple interest is:",I)
+print(f"The simple interest is:",interest)
