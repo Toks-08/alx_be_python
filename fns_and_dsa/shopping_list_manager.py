@@ -11,7 +11,7 @@ def main():
         display_menu()
         choice =(input("Enter your choice: "))
         if  choice == "1":
-            choices = input("Enter the item to add:")
+            choices = input("Enter the item to add: ")
             shopping_list.append(choices)
             print(f"{choices} added to list")
             pass
@@ -21,7 +21,7 @@ def main():
             print(f"{choices} has been removed from your list")
             pass
         elif choice == "3":
-            print(f"Your shopping list:")
+            print(f"Your shopping list: ")
             for item in shopping_list:
               print(item)
             pass
