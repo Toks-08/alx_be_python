@@ -11,12 +11,12 @@ def main():
         display_menu()
         choice = int(input("Enter your choice: "))
         if  choice == 1:
-            choices = input("Enter item to add:")
+            choices = input("Enter the item to add:")
             shopping_list.append(choices)
             print(f"{choices} added to list")
             pass
         elif choice == 2:
-            choices = input("Enter item to remove: ")
+            choices = input("Enter the item to remove: ")
             shopping_list.remove(choices)
             print(f"{choices} has been removed from your list")
             pass
