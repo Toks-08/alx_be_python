@@ -15,8 +15,9 @@ def main():
     print("\nAvailable books after checking out '1984':")
     library.list_available_books()
 
-    # Simulate returning a book
-    library.return_book("1984")
+    # Simulate returning a book (no argument now)
+    print("\nReturning a book:")
+    library.return_book()
     print("\nAvailable books after returning '1984':")
     library.list_available_books()
 
